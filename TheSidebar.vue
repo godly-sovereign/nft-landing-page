@@ -1,0 +1,1 @@
+import { WalletMultiButton } from 'solana-wallets-vue'
