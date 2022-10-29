@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../OAG/deprecated-clis"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "nft-landing-page-1"
+	}
+}
