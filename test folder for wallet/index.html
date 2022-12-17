@@ -1,0 +1,71 @@
+<body>
+
+<button onclick="getAccount()">Get Account</button>
+<button onclick="disconnectAccount()">Log Out</button>
+
+</body>
+
+<script src="https://unpkg.com/@walletconnect/web3-provider"></script>
+<a>
+    <script const provider = new WalletConnectProvider({
+    infuraId: "YOUR_WALLET_CONNECT_URI"
+  });
+  ></script>
+  <script provider.enable().then(function(accounts) {
+    // The user has granted access to their wallet.
+    // You can now use the provider object to interact with the Solana blockchain.
+  });
+  ></script>
+  <script({
+    to: "SOLANA_ADDRESS",
+    value: "1000000000000"
+  });
+  ></script>
+  </a>
+  <!DOCTYPE html>
+<html>
+<head>
+  <title>Space Invaders</title>
+</head>
+<body>
+  <canvas id="gameCanvas" width="800" height="600"></canvas>
+  <script>
+    // Set up the game canvas and context
+    const canvas = document.getElementById('gameCanvas');
+    const ctx = canvas.getContext('2d');
+
+    // Set up the player's spaceship
+    let playerX = 400;
+    let playerY = 550;
+    const playerWidth = 50;
+    const playerHeight = 50;
+
+    // Set up the enemy ships
+    const enemyRows = 5;
+    const enemyColumns = 10;
+    const enemyWidth = 50;
+    const enemyHeight = 50;
+    const enemyPadding = 10;
+    const enemyOffsetTop = 50;
+    const enemyOffsetLeft = 50;
+    let enemies = [];
+    for (let i = 0; i < enemyRows; i++) {
+      enemies[i] = [];
+      for (let j = 0; j < enemyColumns; j++) {
+        enemies[i][j] = { x: 0, y: 0 };
+      }
+    }
+
+    // Set up the game loop
+    function gameLoop() {
+      // Update game state
+
+      // Render game elements
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.fillStyle = '#0095DD';
+      ctx.fillRect(playerX, playerY, playerWidth, playerHeight);
+      for (let i = 0; i < enemyRows; i++) {
+        for (let j = 0; j < enemyColumns; j++) {
+          ctx.fillStyle = '#00FF00';
+          ctx.fillRect(enemies[i][;
+    </body>

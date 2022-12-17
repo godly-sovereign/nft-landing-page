@@ -1,0 +1,122 @@
+.background{
+    background-image: url("1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.im1{
+    background-image: url("img/spaceship.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    
+   
+}
+.tit{
+    font-size: 100px;
+    color: white;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+}
+.game{
+    font-size: 100px;
+}
+.button {
+    
+    font-weight: bold;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color:red;
+    background-color: darkturquoise;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color:dodgerblue}
+  
+  .button:active {
+    background-color:dodgerblue;
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
+  }
+
+  
+
+
+  .button1 {
+    
+    font-weight: bold;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color:white;
+    background-color: rgb(245, 83, 83);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 9px rgb(56, 56, 56);
+  }
+  
+  .button1:hover {background-color:red}
+  
+  .button1:active {
+    background-color:dodgerblue;
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
+  }
+
+
+
+  .button2 {
+    
+    font-weight: bold;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color:white;
+    background-color: green;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 9px rgb(56, 56, 56);
+  }
+  
+  .button2:hover {background-color:rgb(17, 100, 17)}
+  
+  .button2:active {
+    background-color:dodgerblue;
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
+  }
+  .im2{
+    height: 100px;
+  }
+@media(max-width:700px){
+    .tit{
+        font-size: 60px;
+    }
+    .im1{
+        height: 50px;
+    }
+  .game{
+    font-size: 50px;
+  }
+  .im2{
+    height: 50px;
+  }
+}
+.ic:hover{
+    color: rgb(180, 5, 5);
+}
+.ic{
+  color: blue;
+}
